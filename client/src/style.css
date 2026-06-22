@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #ffedb6;
+    background-image:
+        linear-gradient(rgb(255, 238, 191), rgba(255, 237, 182, 0.858)),
+        url("/public/design.PNG");
+    /*background-repeat: repeat;*/
+    background-size: 1270px;
+    align-items: top;
+    color: #4d3417;
+}
+.projectLink {
+    text-decoration: none;
+    color: inherit;
+}
+.navbar {
+    background-color: #562702;
+    color: #ffedb6;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1,
+h2,
+.logo {
+    font-family: 'Cinzel', serif;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #562702;
+    margin: 30px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffedb6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logoShape {
+    width: 45px;
+    height: 45px;
+    background-color: #F2921D;
+    color: #562702;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.logoImage {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.navLinks a {
+    color: #ffedb6;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.navLinks a:hover {
+    color: #F2C230;
+}
+
+.page {
+    min-height: 80vh;
+    padding: 40px;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #F2921D;
+    color: #562702;
+    text-decoration: none;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #ff7003;
+}
+
+.aboutBox {
+    display: flex;
+    gap: 30px;
+    background-color: #562702;
+    color: #ffedb6;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.profileImage {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.infoBox,
+.contactPanel,
+.messageBox {
+    background-color: #562702;
+    color: #ffedb6;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.contactForm {
+    background-color: #562702;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.contactForm textarea {
+    height: 120px;
+}
+
+footer {
+    text-align: center;
+    background-color: #562702;
+    color: #ffedb6;
+    padding: 15px;
+}
+
+    .popupBackground {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.65);
+        backdrop-filter: blur(4px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+    }
+
+    .popupBox {
+        background-color: #562702;
+        color: #ffedb6;
+        padding: 30px;
+        border-radius: 15px;
+        width: 350px;
+        text-align: center;
+    }
