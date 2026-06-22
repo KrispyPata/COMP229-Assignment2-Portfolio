@@ -14,7 +14,7 @@ mongoose.connection.on('error', () => {
 })
 
 mongoose.connection.once('open', () => {
-    console.log('MongoDB Connected')
+    console.log('Connected to the Database!')
 })
 
 app.listen(config.port, () => {
